@@ -5,7 +5,7 @@ import spring.hellospring.domain.Member;
 
 import java.util.*;
 
-@Repository
+//@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     private static Map<Long, Member> store = new HashMap<>(); // 동시성 문제때문에 원래는 컨쿼런스 해쉬맵을 써야한다고 함

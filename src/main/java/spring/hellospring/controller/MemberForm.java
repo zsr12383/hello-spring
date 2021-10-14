@@ -1,6 +1,6 @@
 package spring.hellospring.controller;
 
-public class MemberForm {
+public class MemberForm { //post방식으로 입력받을 양식인듯
     private String name;
     public String getName() {
         return name;
